@@ -130,6 +130,7 @@ body
 }
 
 .perso::before{
+    background-image: url("../IMAGES/persobg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

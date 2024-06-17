@@ -1,0 +1,87 @@
+
+
+
+body 
+{
+    color: white;
+    background-color: #0d0f0e;
+    /* font-family: 'Megrim', cursive; */
+}
+
+* 
+{
+    box-sizing: border-box;
+}
+  
+.titre 
+{
+    text-align: center;
+    padding: 32px;
+    color: #cfcfcf;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text-wrapper {
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-size: larger;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.sidebar a 
+{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #cfcfcf;
+    display: block;
+    font-weight: bold;
+}
+
+.scolaire::before
+{
+    background-image: url("../IMAGES/lamp1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    filter: blur(1px);
+}
+
+.professionel::before
+{
+    background-image: url("../IMAGES/cells.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    filter: blur(1px);
+}
+
+.perso::before{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    filter: blur(1px);
+}
+

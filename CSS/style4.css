@@ -64,8 +64,47 @@
     filter: blur(1px);
 }
 
-.sae6::before{
+.pharma::before{
     background-image: url(../IMAGES/mega.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    filter: blur(1px);
+}
+
+.mh::before{
+    background-image: url(../IMAGES/Palico.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    filter: blur(1px);
+}
+
+.cells::before{
+    background-image: url(../IMAGES/Cells.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    filter: blur(1px);
+}
+
+.perso::before{
+    background-image: url(../IMAGES/persobg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
