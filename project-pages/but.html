@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Name | My Portfolio</title>
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container project-page">
+        <h1 class="project-title">Stage BUT - LIG</h1>
+
+        <section class="project-description">
+            <h2>Description</h2>
+            <p>
+                Le but de ce projet était de tester et d'optimiser des algorithmes d'intelligence artificielle dans le but de programmer automatiquement un synthétiseur virtuel (VST).
+                Le synthétiseur virtuel en question est le DX7, un synthétiseur FM très populaire dans les années 80.
+                Le travail s'inspirait d'un projet de recherche sur la synthèse sonore et l'optimisation des paramètres de synthèse:
+                <br><a href="https://ieeexplore.ieee.org/document/8323327" target="_blank">M. J. Yee-King, L. Fedden & M. d'Inverno, "Automatic Programming of VST Sound Synthesizers Using Deep Networks and Other Techniques"</a>
+                <br>J'ai été chargé de réutiliser le code de ce projet, de le faire fonctionner avec le VST du DX7 et de tester les différents algorithmes.
+                De plus j'ai développer une script permettant la lecture et l'ecriture de fichiers sysex, qui sont des fichiers de configuration pour le DX7.
+            </p>
+        </section>
+
+        <section class="project-thoughts">
+            <h2>Retour d'expérience</h2>
+            <p>
+                Le projet a été très intéressant, car il m'a permis de découvrir la synthèse sonore et la programmation de synthétiseurs virtuels ainsi que le développement IA.
+                J'ai appris à utiliser le framework JUCE, qui est très populaire pour le développement audio.
+                J'ai également appris à utiliser le langage de programmation C++ et Python et à travailler avec des fichiers binaires.
+                J'ai rencontré quelques difficultés lors de la mise en place du projet, car le code était assez complexe et il y avait beaucoup de dépendances.
+                Cependant, j'ai réussi à surmonter ces obstacles et à faire fonctionner le code.
+                Quatres algorithmes d'optimisation ont été testés: l'algorithme Hill Climber, l'algorithme génétique, un réseau de neurones MLP (Multi Layer Perceptron) et un réseau Long Short-Term Memory (LSTM).
+                A terme j'ai réussi à faire fonctionner le code et à obtenir des résultats intéressants en réduisant fortement les temps de calculs.
+            </p>
+        </section>
+
+        <section class="project-gallery">
+            <h2>Screenshots</h2>
+            <div class="gallery-grid">
+                <img src="../images/dx7.png" alt="Screenshot 1" class="project-screenshot"/>
+                <img src="../images/Sound.png" alt="Screenshot 2" class="project-screenshot"/>
+            </div>
+        </section>
+
+        <section id="tech-stack">
+            <h2>Technologies Utilisées</h2>
+            <div class="tech-list">
+              <div class="tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo">
+                <p>Python</p>
+              </div>
+              <div class="tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++ logo">
+                <p>C++</p>
+              </div>
+              <div class="tech-item">
+                <img src="../images/Icons/juce.png" alt="JUCE logo">
+                <p>JUCE</p>
+              </div>
+            </div>
+          </section>
+          
+
+        <a href="../index.html" class="back-link">← Retour au Portfolio</a>
+    </div>
+</body>
+</html>
+

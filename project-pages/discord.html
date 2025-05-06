@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Name | My Portfolio</title>
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container project-page">
+        <h1 class="project-title">NodeJS Discord Bot</h1>
+
+        <section class="project-description">
+            <h2>Description</h2>
+            <p>
+                Ce projet consistait à créer un bot Discord en NodeJS et le rendre disponible sur un serveur.
+                L'idée était de pouvoir accéder au wiki d'un jeu (Escape from Tarkov) directement depuis Discord.
+                Le bot devait être capable de répondre à des commandes spécifiques et d'afficher des informations pertinentes sur le jeu afin de gagner du temps a chercher dans le wiki.
+                Comme aucune API n'était disponible, j'ai dû créer un scraper pour extraire les données du wiki et les formater de manière à ce qu'elles soient facilement accessibles via le bot.
+                J'ai utilisé puppeteer pour le scraping et discord.js pour l'interaction avec l'API de Discord.
+                Pour le moment le bot ne permet que de faire des recherches sur les objets et l'équipement du jeu,
+                mais il est prévu d'ajouter d'autres fonctionnalités comme la recherche de quêtes et la ballistique.
+                Le bot est hébergé sur mon ordinateur personnel donc il n'est pas toujours en ligne.
+            </p>
+        </section>
+
+        <section class="project-thoughts">
+            <h2>Retour d'expérience</h2>
+            <p>
+                J'ai initialement lancé ce projet après avoir utilisé NodeJS et le scrapping pendant l'événement "La nuit de l'info" de 2021.
+                J'ai voulu continuer à explorer ces technologies et j'ai donc décidé de créer un bot Discord.
+                J'ai appris à utiliser Puppeteer pour le scraping et j'ai également découvert comment interagir avec l'API de Discord.
+                Ce projet m'a permis de me familiariser avec le développement de bots et d'apprendre à gérer les interactions en temps réel.
+                Le bot est encore en développement et j'ai aussi l'intention d'intégrer de nouvelles commandes pour d'autres jeux.
+            </p>
+        </section>
+
+        <section class="project-gallery">
+            <h2>Screenshots</h2>
+            <div class="gallery-grid">
+                <img src="../images/discord1.png" alt="Screenshot 1" class="project-screenshot"/>
+                <img src="../images/discord2.png" alt="Screenshot 2" class="project-screenshot"/>
+            </div>
+        </section>
+
+        <section id="tech-stack">
+            <h2>Technologies Utilisées</h2>
+            <div class="tech-list">
+              <div class="tech-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS logo">
+                <p>NodeJS</p>
+              </div>
+              <div class="tech-item">
+                <img src="../images/Icons/discord.svg" alt="Discord logo">
+                <p>Discord</p>
+              </div>
+            </div>
+          </section>
+
+          
+        <a href="../index.html" class="back-link">← Retour au Portfolio</a>
+    </div>
+</body>
+</html>
